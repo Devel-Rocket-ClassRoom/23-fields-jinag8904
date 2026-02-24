@@ -9,7 +9,9 @@
 
 ## 과제 1: 필드가 있는 클래스 만들기
 
-`Player` 클래스를 만들고 `name`과 `health` 필드를 선언합니다. `ShowStatus()` 메서드에서 필드 값을 출력합니다. 초기화하지 않은 필드의 기본값을 확인합니다.
+`Player` 클래스를 만들고 `name`과 `health` 필드를 선언합니다. 
+`ShowStatus()` 메서드에서 필드 값을 출력합니다. 
+초기화하지 않은 필드의 기본값을 확인합니다.
 
 **실행 결과**
 
@@ -22,7 +24,8 @@
 
 ## 과제 2: public 필드
 
-`Character` 클래스에 `public` 필드 `name`과 `level`을 선언하고, 외부에서 값을 설정한 뒤 출력합니다.
+`Character` 클래스에 `public` 필드 `name`과 `level`을 선언하고, 
+외부에서 값을 설정한 뒤 출력합니다.
 
 **실행 결과**
 
@@ -35,7 +38,8 @@
 
 ## 과제 3: private 필드
 
-`Character` 클래스에 `private` 필드 `name`과 `level`을 선언합니다. `SetInfo()` 메서드로 값을 설정하고 `ShowInfo()` 메서드로 출력합니다.
+`Character` 클래스에 `private` 필드 `name`과 `level`을 선언합니다. 
+`SetInfo()` 메서드로 값을 설정하고 `ShowInfo()` 메서드로 출력합니다.
 
 **실행 결과**
 
@@ -48,7 +52,8 @@
 
 ## 과제 4: 선언과 동시에 초기화
 
-`Player` 클래스의 필드 `name`, `health`, `level`에 초기값을 지정하고 `ShowStatus()` 메서드로 출력합니다.
+`Player` 클래스의 필드 `name`, `health`, `level`에 초기값을 지정하고 
+`ShowStatus()` 메서드로 출력합니다.
 
 **실행 결과**
 
@@ -62,7 +67,8 @@
 
 ## 과제 5: 필드 이니셜라이저
 
-`Say` 클래스에 `message` 필드를 "안녕하세요."로 초기화합니다. `Hi()` 메서드에서 값을 "반갑습니다."로 변경 후 출력합니다.
+`Say` 클래스에 `message` 필드를 "안녕하세요."로 초기화합니다. 
+`Hi()` 메서드에서 값을 "반갑습니다."로 변경 후 출력합니다.
 
 **실행 결과**
 
@@ -74,7 +80,8 @@
 
 ## 과제 6: 배열 필드 초기화
 
-`Schedule` 클래스에 요일 문자열 배열 필드를 선언하고 `PrintWeekDays()` 메서드로 모든 요일을 탭으로 구분하여 출력합니다.
+`Schedule` 클래스에 요일 문자열 배열 필드를 선언하고 
+`PrintWeekDays()` 메서드로 모든 요일을 탭으로 구분하여 출력합니다.
 
 **실행 결과**
 
@@ -86,7 +93,9 @@ Sun	Mon	Tue	Wed	Thu	Fri	Sat
 
 ## 과제 7: 기본값 확인
 
-`DefaultValues` 클래스에 `int`, `bool`, `string` 타입의 필드를 초기화 없이 선언합니다. `ShowDefaults()` 메서드로 각 필드의 기본값을 출력합니다. 문자열이 `null`이면 "null" 텍스트로 출력합니다.
+`DefaultValues` 클래스에 `int`, `bool`, `string` 타입의 필드를 초기화 없이 선언합니다. 
+`ShowDefaults()` 메서드로 각 필드의 기본값을 출력합니다. 
+문자열이 `null`이면 "null" 텍스트로 출력합니다.
 
 **실행 결과**
 
@@ -100,7 +109,8 @@ text: null
 
 ## 과제 8: 정적 필드 선언과 사용
 
-`Counter` 클래스에 `public static int count` 필드를 선언합니다. 생성자에서 `count`를 증가시키고, 객체를 3개 생성하면서 각각 카운트를 출력합니다.
+`Counter` 클래스에 `public static int count` 필드를 선언합니다. 
+생성자에서 `count`를 증가시키고, 객체를 3개 생성하면서 각각 카운트를 출력합니다.
 
 **실행 결과**
 
@@ -114,7 +124,9 @@ text: null
 
 ## 과제 9: 인스턴스 필드 vs 정적 필드
 
-`Player` 클래스에 인스턴스 필드 `name`과 정적 필드 `totalCount`를 선언합니다. 생성자에서 이름을 받아 설정하고 `totalCount`를 증가시킵니다. 3개의 객체를 만들고 각 이름과 총 플레이어 수를 출력합니다.
+`Player` 클래스에 인스턴스 필드 `name`과 정적 필드 `totalCount`를 선언합니다. 
+생성자에서 이름을 받아 설정하고 `totalCount`를 증가시킵니다. 
+3개의 객체를 만들고 각 이름과 총 플레이어 수를 출력합니다.
 
 **실행 결과**
 
@@ -129,7 +141,8 @@ text: null
 
 ## 과제 10: readonly 필드
 
-`GameConfig` 클래스에 `readonly` 필드 `version`(초기값 "1.0.0")과 `maxPlayers`를 선언합니다. `maxPlayers`는 생성자에서 초기화합니다. `ShowConfig()` 메서드로 설정 값을 출력합니다.
+`GameConfig` 클래스에 `readonly` 필드 `version`(초기값 "1.0.0")과 `maxPlayers`를 선언합니다. 
+`maxPlayers`는 생성자에서 초기화합니다. `ShowConfig()` 메서드로 설정 값을 출력합니다.
 
 **실행 결과**
 
@@ -142,7 +155,8 @@ text: null
 
 ## 과제 11: readonly vs const 비교
 
-`Example` 클래스에 `const double Pi`와 `readonly DateTime createdAt` 필드를 선언합니다. `ShowValues()` 메서드로 두 값을 출력하여 컴파일 시점과 실행 시점의 차이를 확인합니다.
+`Example` 클래스에 `const double Pi`와 `readonly DateTime createdAt` 필드를 선언합니다. 
+`ShowValues()` 메서드로 두 값을 출력하여 컴파일 시점과 실행 시점의 차이를 확인합니다.
 
 **실행 결과**
 
@@ -157,7 +171,8 @@ text: null
 
 ## 과제 12: this 키워드
 
-`Player` 클래스에 `private` 필드 `name`과 `level`을 선언합니다. `SetInfo()` 메서드에서 매개변수와 필드 이름이 같을 때 `this` 키워드로 구분합니다.
+`Player` 클래스에 `private` 필드 `name`과 `level`을 선언합니다. 
+`SetInfo()` 메서드에서 매개변수와 필드 이름이 같을 때 `this` 키워드로 구분합니다.
 
 **실행 결과**
 
@@ -170,7 +185,8 @@ text: null
 
 ## 과제 13: 다양한 필드 타입 활용
 
-`Person` 클래스에 일반 필드, `const`, `readonly`, 배열 필드를 모두 사용합니다. `ShowProfile()` 메서드로 모든 정보를 출력합니다.
+`Person` 클래스에 일반 필드, `const`, `readonly`, 배열 필드를 모두 사용합니다. 
+`ShowProfile()` 메서드로 모든 정보를 출력합니다.
 
 **실행 결과**
 
@@ -185,7 +201,8 @@ text: null
 
 ## 과제 14: 게임 캐릭터 클래스
 
-`GameCharacter` 클래스에 인스턴스 필드, 정적 필드, 읽기 전용 필드, 상수를 모두 활용합니다. 2명의 캐릭터를 만들고 상태를 출력한 뒤, 한 캐릭터가 데미지를 받는 과정을 구현합니다.
+`GameCharacter` 클래스에 인스턴스 필드, 정적 필드, 읽기 전용 필드, 상수를 모두 활용합니다. 
+2명의 캐릭터를 만들고 상태를 출력한 뒤, 한 캐릭터가 데미지를 받는 과정을 구현합니다.
 
 **실행 결과**
 
